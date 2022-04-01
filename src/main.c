@@ -7,7 +7,7 @@ int main() {
   for (int n1 = 0; n1 < 1000; ++n1) {
     for (int n2 = 0; n2 < 1000; ++n2) {
       for (int n3 = 0; n3 < 1000; ++n3) {
-        num += 1;
+        num += n3 - n2;
       }
     }
   }
