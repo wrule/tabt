@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -o main -Ofast src/main.c
+gcc -o main -O2 src/main.c
 ./main
